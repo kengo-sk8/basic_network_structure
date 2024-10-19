@@ -1,0 +1,22 @@
+**/.terraform/*
+.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+
+# .tfstate files
+*.tfvars
+*.tfvars.*
+
+crash.log
+crash.*.log
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# macOSが各ディレクトリに自動的に作成する 「ディレクトリサービスストアファイル」
+.DS_Store
